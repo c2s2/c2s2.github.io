@@ -1,34 +1,43 @@
 <!DOCTYPE html>
 <html>
     <head>
-      <meta name="viewport" content="width=device-width, initial-scale=1"> 
+      <meta name="viewport" content="width=device-width, initial-scale=1">
       <link rel="stylesheet" href="c2s2.css">
     </head>
     <body>
-        <div class="fat hero yellow-gradient">
-          <h1> Welcome to C<sup>2</sup>S<sup>2</sup></h1>
-          <button class="orange button3d red-hover"> Download </button>
-        </div>
-      <div class="responsive centered">
-        <div class="split lightred round box">
-          <p> Here we aim to make CSS simple, so don't you go expecting fancy stuff </p>
-        </div>
-        <div class="split lightblue centered round box">
-          <button class="orange button red-hover"> I am but a humble button </button>
-          <button class="green button red-hover"> Yeah same </button>
-          <button class="blue button red-hover">  Hey me too!</button>
-          <button class="green button red-hover"> Shut up Mike </button>
-          <button class="blue button red-hover"> Ok sorry </button>
-        </div>
-        <div class="harder-split lightred round box">
-          <p> test </p>
-        </div>
-        <div class="harder-split lightred round box">
-          <p> test </p>
-        </div>
-        <div class="harder-split lightred round box">
-          <p> test </p>
+      <div class="fat hero yellow-gradient">
+        <h1> Welcome to C<sup>2</sup>S<sup>2</sup></h1>
+      </div>
+      <div class="hero">
+        <h2>Stuff can either be wrapped on a <code>strip</code> or <code>responsive</code> class.</h2><p> However if you just want to display some brief text or a button (like this div or the yellow one above) you can use <code>hero</code>
+      </div>
+      <div class="strip">
+        <div class="centered round purple-border box">
+          <p> this is a <code>centered purple-border box</code> and is wrapped on a <code>strip</code></p>
         </div>
       </div>
+      <div class="responsive">
+        <div class="split blue round box">
+          <p> This is a <code>split blue round box</code>, in order to engage the responsiveness you need to indicate which divs are meant to split </p>
+        </div>
+        <div class="split red-gradient centered box">
+          <p> This is a child of the other <code>split red-gradient centered box</code> </p>
+        </div>
+      </div>
+      <div class="strip">
+        <div class="centered box">
+          <button class="orange button red-hover"> I am a <code>orange button red-hover</code> </button>
+          <button class="green button blue-hover"> Yeah same </button>
+          <button class="blue button green-hover">  Hey me too!</button>
+          <button class="green button yellow-hover"> Shut up Mike </button>
+          <button class="blue button purple-hover"> Ok sorry </button>
+          <button class="brown button3d"> Guys look! <code>brown button3d</code> </button>
+        </div>
+      </div>
+      <br>
+      <div class="centered thinstrip">
+        <p>made by Carlos, for you to share - although it might take some years to make this work well - I'll let you guys know when it does. Oh btw, this is a <code>thinstrip</code></p>
+      </div>
+      <br>
     </body>
 </html>
